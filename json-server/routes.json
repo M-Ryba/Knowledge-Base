@@ -1,0 +1,6 @@
+{
+  "/api/*": "/$1",
+  "/users": "/600/users",
+  "/resources": "/664/resources",
+  "/categories": "/664/categories"
+}

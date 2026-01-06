@@ -1,0 +1,39 @@
+{
+  "users": [
+    { "id": 1, "email": "admin@fishy.pl", "password": "123", "name": "Admin", "role": "admin" },
+    { "id": 2, "email": "user@fishy.pl", "password": "123", "name": "User", "role": "user" }
+  ],
+  "categories": [
+    { "id": "c1", "name": "Frontend" },
+    { "id": "c2", "name": "Backend" },
+    { "id": "c3", "name": "DevOps" }
+  ],
+  "resources": [
+    {
+      "id": 1,
+      "title": "Wstęp do Angulara",
+      "description": "Podstawy frameworka",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "categoryId": "c1",
+      "userId": 1,
+      "views": 150,
+      "isPublic": true,
+      "createdAt": "2023-11-01T10:00:00.000Z",
+      "links": [
+        { "label": "Dokumentacja", "url": "https://angular.io" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "JSON Server Guide",
+      "description": "Jak zrobić API w 5 min",
+      "content": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...",
+      "categoryId": "c2",
+      "userId": 2,
+      "views": 45,
+      "isPublic": false,
+      "createdAt": "2023-12-05T12:00:00.000Z",
+      "links": []
+    }
+  ]
+}

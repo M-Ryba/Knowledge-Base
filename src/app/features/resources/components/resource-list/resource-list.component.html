@@ -1,0 +1,12 @@
+@if (resources$ | async; as resources) {
+  <div class="resource-list">
+    @for (resource of resources; track resource.id) {
+      <div class="resource-item">
+        <h3>{{ resource.title }}</h3>
+        <p>{{ resource.description }}</p>
+      </div>
+    }
+  </div>
+} @else {
+  <p class="loading">Loading...</p>
+}

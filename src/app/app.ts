@@ -1,14 +1,13 @@
 import { Component, signal } from '@angular/core';
-import { TestComponent } from './components/test/test.component';
-import { ResourceListComponent } from './features/resources/components/resource-list/resource-list.component';
-//import { RouterOutlet } from '@angular/router';
+import { RouterOutlet } from '@angular/router';
+import { NavbarComponent } from './core/components/navbar/navbar.component';
 
 @Component({
   selector: 'app-root',
-  imports: [TestComponent, ResourceListComponent],
+  imports: [RouterOutlet, NavbarComponent],
   templateUrl: './app.html',
   styleUrl: './app.scss',
 })
 export class AppComponent {
-  protected readonly title = signal('projekt-frontend-development-ii');
+  protected readonly title = signal('Fishy Wiki');
 }

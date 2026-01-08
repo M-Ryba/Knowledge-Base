@@ -1,7 +1,7 @@
 import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
 import { AsyncPipe } from '@angular/common';
-import { ApiService } from '../../../../core/services/api.service';
-import { Resource } from '../../../../core/models/resource.model';
+import { ApiService } from '../../../core/services/api.service';
+import { Resource } from '../../../models/resource.model';
 import { Observable } from 'rxjs';
 
 @Component({

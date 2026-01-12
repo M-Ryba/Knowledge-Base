@@ -1,0 +1,6 @@
+.resource-item {
+  cursor: pointer;
+  &:hover {
+    background-color: var(--mat-sys-surface-container);
+  }
+}

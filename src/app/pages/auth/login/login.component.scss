@@ -1,0 +1,22 @@
+.content {
+  min-width: 20rem;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+mat-form-field {
+  margin-bottom: 0.5rem;
+}
+
+.auth-link {
+  margin-top: 1rem;
+  text-align: center;
+}

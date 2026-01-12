@@ -1,0 +1,20 @@
+<div class="header">
+  <div class="topBar">
+    <div class="authControls">
+      @if (userName()) {
+        <span>{{ userName() }}</span>
+        <button matButton="filled" (click)="onLogout()">Logout</button>
+      } @else {
+        <button matButton="filled" routerLink="/login">Login</button>
+        <button matButton="tonal" routerLink="/register">Register</button>
+      }
+    </div>
+    <div class="title">
+      <h1>Fishy Wiki</h1>
+    </div>
+  </div>
+  <div class="navigation">
+    <button matButton routerLink="/home">Home</button>
+    <button matButton routerLink="/resources">Resources</button>
+  </div>
+</div>

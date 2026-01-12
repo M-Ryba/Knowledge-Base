@@ -1,12 +1,31 @@
 {
   "users": [
-    { "id": 1, "email": "admin@proton.me", "password": "123", "name": "Admin", "role": "admin" },
-    { "id": 2, "email": "user1@gmail.com", "password": "123", "name": "User 1", "role": "user" }
+    {
+      "email": "user1@mail.com",
+      "password": "$2a$10$sLoRNSc1USoOMOyrYlGTxe6PIwi5xpVXKM/HLaLkmpssh4m1LHEeG",
+      "name": "User 1",
+      "id": 1
+    },
+    {
+      "email": "user2@mail.com",
+      "password": "$2a$10$ZH9u2E0Gkqhgt0RrZbPSVugLGgb1pQ.MWWGA82dK5tiXGAOsdUlXO",
+      "name": "User 2",
+      "id": 2
+    }
   ],
   "categories": [
-    { "id": "1", "name": "Other" },
-    { "id": "2", "name": "Frontend" },
-    { "id": "3", "name": "Backend" }
+    {
+      "id": "1",
+      "name": "Other"
+    },
+    {
+      "id": "2",
+      "name": "Frontend"
+    },
+    {
+      "id": "3",
+      "name": "Backend"
+    }
   ],
   "resources": [
     {

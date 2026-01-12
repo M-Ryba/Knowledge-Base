@@ -1,12 +1,17 @@
+<h1>Resources</h1>
+
 @if (resources$ | async; as resources) {
-  <div class="resource-list">
+  <mat-list class="resource-list">
     @for (resource of resources; track resource.id) {
-      <div class="resource-item">
-        <h3>{{ resource.title }}</h3>
-        <p>{{ resource.description }}</p>
-      </div>
+      <mat-list-item class="resource-item">
+        <h3 matListItemTitle>{{ resource.title }}</h3>
+        <p matListItemLine>{{ resource.description }}</p>
+      </mat-list-item>
+      @if (!$last) {
+        <mat-divider />
+      }
     }
-  </div>
+  </mat-list>
 } @else {
   <p class="loading">Loading...</p>
 }

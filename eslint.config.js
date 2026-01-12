@@ -39,6 +39,8 @@ module.exports = defineConfig([
       "no-param-reassign": "error",
       "prefer-const": "error",
       semi: ["error", "always"],
+      '@typescript-eslint/no-floating-promises': 'off',
+      '@typescript-eslint/unbound-method': 'off',
       "@angular-eslint/component-class-suffix": [
         "error",
         {

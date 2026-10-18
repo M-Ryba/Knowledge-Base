@@ -1,5 +1,4 @@
 # Projekt na przedmiot Frontend Development II
-### Maciej Rybarczyk
 
 ## Development server
 
